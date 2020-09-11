@@ -1,0 +1,7 @@
+C:\Users\Varnika Gautam\source\repos\SenderReadCSV\Sender\Sender\bin\Debug\Sender.exe.config
+C:\Users\Varnika Gautam\source\repos\SenderReadCSV\Sender\Sender\bin\Debug\Sender.exe
+C:\Users\Varnika Gautam\source\repos\SenderReadCSV\Sender\Sender\bin\Debug\Sender.pdb
+C:\Users\Varnika Gautam\source\repos\SenderReadCSV\Sender\Sender\obj\Debug\Sender.csprojAssemblyReference.cache
+C:\Users\Varnika Gautam\source\repos\SenderReadCSV\Sender\Sender\obj\Debug\Sender.csproj.CoreCompileInputs.cache
+C:\Users\Varnika Gautam\source\repos\SenderReadCSV\Sender\Sender\obj\Debug\Sender.exe
+C:\Users\Varnika Gautam\source\repos\SenderReadCSV\Sender\Sender\obj\Debug\Sender.pdb
