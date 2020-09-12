@@ -32,7 +32,9 @@ namespace Reciever
 					word += comment[i];
 				}
 			}
-			word.ToLower();
+			
+			word = word.ToLower();
+			word = RemoveInvalidCharacters(word);
 			words.Add(word);
 
 			return InsertWordsAndCount(wordCountMap, words);
@@ -60,5 +62,23 @@ namespace Reciever
 
 			return mapOfWordCount;
 		}
+
+		private string RemoveInvalidCharacters(string modifiedWord)
+        {
+			int temp = 0;
+			for (int i = 0; i < modifiedWord.Length; i++)
+			{
+				temp = (int)modifiedWord[i];
+				if (temp < 97 || temp > 122)
+				{
+					modifiedWord = modifiedWord.Remove(i, 1);
+					i--;
+
+				}
+
+			}
+
+			return modifiedWord;
+        }
 	}
 }
