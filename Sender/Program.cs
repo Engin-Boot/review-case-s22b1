@@ -6,7 +6,6 @@ namespace Sender
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             string csvPath;
@@ -20,8 +19,6 @@ namespace Sender
                 csvPath = args[0];
             }
             ReadCSV(csvPath);
-
-
         }
 
         /// <summary> 
