@@ -5,3 +5,10 @@ D:\bootcamp\Reciever\obj\Debug\Reciever.csprojAssemblyReference.cache
 D:\bootcamp\Reciever\obj\Debug\Reciever.csproj.CoreCompileInputs.cache
 D:\bootcamp\Reciever\obj\Debug\Reciever.exe
 D:\bootcamp\Reciever\obj\Debug\Reciever.pdb
+D:\bootcamp\review-case-s22b1\Reciever\bin\Debug\Reciever.exe.config
+D:\bootcamp\review-case-s22b1\Reciever\bin\Debug\Reciever.exe
+D:\bootcamp\review-case-s22b1\Reciever\bin\Debug\Reciever.pdb
+D:\bootcamp\review-case-s22b1\Reciever\obj\Debug\Reciever.csprojAssemblyReference.cache
+D:\bootcamp\review-case-s22b1\Reciever\obj\Debug\Reciever.csproj.CoreCompileInputs.cache
+D:\bootcamp\review-case-s22b1\Reciever\obj\Debug\Reciever.exe
+D:\bootcamp\review-case-s22b1\Reciever\obj\Debug\Reciever.pdb

@@ -13,7 +13,7 @@ namespace Reciever
 		/// <param name="M"></param>
 		/// <param name="line"></param>
 		/// <returns></returns>
-		public SortedDictionary<string, int> SplitCommentsIntoWords(SortedDictionary<string, int> M, string comment)
+		public SortedDictionary<string, int> SplitCommentsIntoWords(SortedDictionary<string, int> wordCountMap, string comment)
 		{
 			// String for storing the words
 			string word = "";
@@ -35,7 +35,7 @@ namespace Reciever
 			word.ToLower();
 			words.Add(word);
 
-			return InsertWordsAndCount(M, words);
+			return InsertWordsAndCount(wordCountMap, words);
 		}
 
 		/// <summary>
@@ -44,21 +44,21 @@ namespace Reciever
 		/// <param name="M"></param>
 		/// <param name="words"></param>
 		/// <returns></returns>
-		private SortedDictionary<string, int> InsertWordsAndCount(SortedDictionary<string, int> M, List<string> words)
+		private SortedDictionary<string, int> InsertWordsAndCount(SortedDictionary<string, int> mapOfWordCount, List<string> words)
 		{
 			foreach (var word in words)
 			{
-				if (!M.ContainsKey(word))
+				if (!mapOfWordCount.ContainsKey(word))
 				{
-					M.Add(word, 1);
+					mapOfWordCount.Add(word, 1);
 				}
 				else
 				{
-					M[word]++;
+					mapOfWordCount[word]++;
 				}
 			}
 
-			return M;
+			return mapOfWordCount;
 		}
 	}
 }

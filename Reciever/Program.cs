@@ -8,7 +8,7 @@ namespace Reciever
 	{
 		static void Main()
 		{
-			SortedDictionary<string, int> M = new SortedDictionary<string, int>();
+			SortedDictionary<string, int> wordCountDictionary = new SortedDictionary<string, int>();
 			string line = "";
 			CommentOperation commentOperation = new CommentOperation();
 			FileOperation fileOperation = new FileOperation();
@@ -21,10 +21,10 @@ namespace Reciever
 				{
 					break;
 				}
-				M = commentOperation.SplitCommentsIntoWords(M, line);
+				wordCountDictionary = commentOperation.SplitCommentsIntoWords(wordCountDictionary, line);
 				
 			}
-			fileOperation.WriteWordAndItsCount(M);
+			fileOperation.WriteWordAndItsCount(wordCountDictionary);
 		}
 	}
 
