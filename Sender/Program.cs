@@ -1,18 +1,27 @@
 ﻿using System;
 using System.IO;
+using System.Reflection;
 
 namespace Sender
 {
     class Program
     {
-        
+
         static void Main(string[] args)
         {
-            Console.WriteLine("\nCommandLine: {0}", Environment.CommandLine);    
-            string CSVPath;
-            CSVPath = args[0];
-            ReadCSV(CSVPath);
-            Console.ReadKey();
+            string csvPath;
+            if (args.Length == 0)
+            {
+                string path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+                csvPath = path + "\\sample.csv";
+            }
+            else
+            {
+                csvPath = args[0];
+            }
+            ReadCSV(csvPath);
+
+
         }
 
         /// <summary> 
@@ -23,7 +32,6 @@ namespace Sender
         public static void ReadCSV(string CSVPath)
         {
             string[] lines = File.ReadAllLines(CSVPath);
-            Console.WriteLine("\n\tCSV Data \n");
             PrintCSV.PrintCSVRows(lines);
         }          
     }

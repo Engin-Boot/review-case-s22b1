@@ -15,11 +15,18 @@ namespace Sender
        
         public static void PrintCSVRows(string[] lines)
         {
+
             foreach (string line in lines)
             {
-                string[] columns = line.Split(',');
-                PrintCSVCol(columns);
-                Console.Write("\n");
+                if (!string.IsNullOrEmpty(line) && line.Contains(','))
+                {
+                    string columns = line.Split(',')[1];
+                    if(!string.IsNullOrEmpty(columns))
+                    {
+                        PrintCSVCol(columns);
+                    }
+                 
+                }
             }
         }
 
@@ -27,12 +34,9 @@ namespace Sender
         /// Prints the column of CSV File
         /// </summary>
         /// <param name="columns"></param>
-        private static void PrintCSVCol(string[] columns)
+        private static void PrintCSVCol(string columns)
         {
-            foreach (string column in columns)
-            {
-                Console.Write("\t{0}", column);
-            }
+            Console.WriteLine("{0}", columns);
         }
     }
 }
