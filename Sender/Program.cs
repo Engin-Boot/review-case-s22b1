@@ -8,7 +8,9 @@ namespace Sender
         
         static void Main(string[] args)
         {
-            string CSVPath = @"C:\VARNIKA\CommentFileCSV.csv";
+            Console.WriteLine("\nCommandLine: {0}", Environment.CommandLine);    
+            string CSVPath;
+            CSVPath = args[0];
             ReadCSV(CSVPath);
             Console.ReadKey();
         }
