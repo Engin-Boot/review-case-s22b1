@@ -17,30 +17,12 @@ namespace Reciever
 		/// <returns></returns>
 		public SortedDictionary<string, int> SplitCommentsIntoWords(SortedDictionary<string, int> wordCountMap, string comment)
 		{
-			// String for storing the words
-			string word = "";
-			List<string> words = new List<string>();
-
-			for (int i = 0; i < comment.Length; i++)
-			{
-
-				if (comment[i] == ' ')
-				{
-					word = word.ToLower();
-					word = RemoveInvalidCharacters(word);
-					words.Add(word);
-					word = "";
-				}
-				else
-				{
-					word += comment[i];
-				}
-			}
-			
-			
-			words.Add(word);
-
-			
+			List<string> words = new List<string>(comment.Split(' '));
+			for(int i=0; i < words.Count; i++)
+            {
+				words[i] = words[i].ToLower();
+				words[i] = RemoveInvalidCharacters(words[i]);
+            }
 			return InsertWordsAndCount(wordCountMap, words);
 		}
 
