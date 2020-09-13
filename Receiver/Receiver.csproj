@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommentOperation.cs" />
+    <Compile Include="MapOperation.cs" />
+    <Compile Include="CommentSplitter.cs" />
     <Compile Include="FileOperation.cs" />
+    <Compile Include="FormatComment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

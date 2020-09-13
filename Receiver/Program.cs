@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Receiver
 {
@@ -12,8 +9,8 @@ namespace Receiver
 		{
 			SortedDictionary<string, int> wordCountDictionary = new SortedDictionary<string, int>();
 			string line = "";
-			CommentOperation commentOperation = new CommentOperation();
 			FileOperation fileOperation = new FileOperation();
+			CommentSplitter commentSplitter = new CommentSplitter();
 
 			for (; ; )
 			{
@@ -23,7 +20,7 @@ namespace Receiver
 				{
 					break;
 				}
-				wordCountDictionary = commentOperation.SplitCommentsIntoWords(wordCountDictionary, line);
+				wordCountDictionary = commentSplitter.SplitCommentsIntoWords(wordCountDictionary, line);
 
 			}
 			fileOperation.WriteWordAndItsCount(wordCountDictionary);
