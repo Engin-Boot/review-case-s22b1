@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Reciever
 {
@@ -24,6 +26,8 @@ namespace Reciever
 
 				if (comment[i] == ' ')
 				{
+					word = word.ToLower();
+					word = RemoveInvalidCharacters(word);
 					words.Add(word);
 					word = "";
 				}
@@ -33,10 +37,10 @@ namespace Reciever
 				}
 			}
 			
-			word = word.ToLower();
-			word = RemoveInvalidCharacters(word);
+			
 			words.Add(word);
 
+			
 			return InsertWordsAndCount(wordCountMap, words);
 		}
 
@@ -63,22 +67,25 @@ namespace Reciever
 			return mapOfWordCount;
 		}
 
-		private string RemoveInvalidCharacters(string modifiedWord)
+
+		/// <summary>
+		/// To remove all the Invalid Charater from string
+		/// </summary>
+		/// <param name="modifiedWord"></param>
+		/// <returns></returns>
+		private string RemoveInvalidCharacters(string word)
         {
-			int temp = 0;
-			for (int i = 0; i < modifiedWord.Length; i++)
+			var modifiedWord = new StringBuilder();
+			bool result;
+			for (int i = 0; i < word.Length; i++)
 			{
-				temp = (int)modifiedWord[i];
-				if (temp < 97 || temp > 122)
+				result = Char.IsLetter(word[i]);
+				if (result)
 				{
-					modifiedWord = modifiedWord.Remove(i, 1);
-					i--;
-
+					modifiedWord.Append(word[i]);
 				}
-
 			}
-
-			return modifiedWord;
-        }
+			return modifiedWord.ToString();
+		}
 	}
 }
