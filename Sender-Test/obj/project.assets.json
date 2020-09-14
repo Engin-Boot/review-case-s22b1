@@ -3486,23 +3486,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vinay\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Varnika Gautam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vinay\\Desktop\\New folder\\Review-Case-Study\\Sender-Test\\Sender-Test.csproj",
+      "projectUniqueName": "C:\\VARNIKA\\Bootcamp\\Sender-Test\\Sender-Test.csproj",
       "projectName": "Sender-Test",
-      "projectPath": "C:\\Users\\Vinay\\Desktop\\New folder\\Review-Case-Study\\Sender-Test\\Sender-Test.csproj",
-      "packagesPath": "C:\\Users\\Vinay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vinay\\Desktop\\New folder\\Review-Case-Study\\Sender-Test\\obj\\",
+      "projectPath": "C:\\VARNIKA\\Bootcamp\\Sender-Test\\Sender-Test.csproj",
+      "packagesPath": "C:\\Users\\Varnika Gautam\\.nuget\\packages\\",
+      "outputPath": "C:\\VARNIKA\\Bootcamp\\Sender-Test\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Vinay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Varnika Gautam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3515,8 +3511,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Vinay\\Desktop\\New folder\\Review-Case-Study\\Sender\\Sender.csproj": {
-              "projectPath": "C:\\Users\\Vinay\\Desktop\\New folder\\Review-Case-Study\\Sender\\Sender.csproj"
+            "C:\\VARNIKA\\Bootcamp\\Sender\\Sender.csproj": {
+              "projectPath": "C:\\VARNIKA\\Bootcamp\\Sender\\Sender.csproj"
             }
           }
         }

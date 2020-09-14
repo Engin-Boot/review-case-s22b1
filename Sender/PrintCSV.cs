@@ -13,20 +13,33 @@ namespace Sender
         /// </summary>
         /// <param name="lines"> </param>
 
+        //public static void PrintCSVRows(string[] lines)
+        //{
+
+        //    foreach (string line in lines)
+        //    {
+        //        if (!string.IsNullOrEmpty(line) && line.Contains(','))
+        //        {
+        //            string columns = line.Split(',')[1];
+        //            if (!string.IsNullOrEmpty(columns))
+        //            {
+        //                PrintCSVCol(columns);
+        //            }
+
+        //        }
+        //    }
+        //}
+
         public static void PrintCSVRows(string[] lines)
         {
 
-            foreach (string line in lines)
+            foreach (var columns in lines
+                .Where(x => !string.IsNullOrEmpty(x))
+                .Select(x => x.Split(','))
+                .Where(x => x.Length > 1 && !string.IsNullOrEmpty(x[1]))
+                .ToArray())
             {
-                if (!string.IsNullOrEmpty(line) && line.Contains(','))
-                {
-                    string columns = line.Split(',')[1];
-                    if (!string.IsNullOrEmpty(columns))
-                    {
-                        PrintCSVCol(columns);
-                    }
-
-                }
+                PrintCSVCol(columns[1]);
             }
         }
 
@@ -36,7 +49,11 @@ namespace Sender
         /// <param name="columns"></param>
         private static void PrintCSVCol(string columns)
         {
-            Console.WriteLine("{0}", columns);
+            foreach (var column in columns)
+            {
+                Console.Write("{0}", column);
+            }
+            Console.WriteLine("\n");
         }
     }
 }

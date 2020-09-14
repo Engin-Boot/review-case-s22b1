@@ -1,4 +1,6 @@
 using Xunit;
+using System.IO;
+using System;
 
 namespace Sender_Test
 {
@@ -7,7 +9,16 @@ namespace Sender_Test
         [Fact]
         public void Test1()
         {
-            Assert.True(true);
+            try
+            {
+                if (File.Exists("C:\\VARNIKA\\Test.csv"));
+                return; // indicates success
+            }
+            catch (Exception ex)
+            {
+                Assert.True(false, ex.Message);
+            }
+                        
         }
     }
 }
