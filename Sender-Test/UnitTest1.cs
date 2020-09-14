@@ -1,6 +1,4 @@
 using Xunit;
-using System.IO;
-using System;
 
 namespace Sender_Test
 {
@@ -17,8 +15,7 @@ namespace Sender_Test
             catch (Exception ex)
             {
                 Assert.True(false, ex.Message);
-            }
-                        
+            }            
         }
     }
 }
