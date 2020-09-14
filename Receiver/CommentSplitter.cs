@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Receiver
 {
-    public class CommentSplitter
-    {
+	public class CommentSplitter
+	{
 
 		/// <summary>
 		/// splitting the text and storing the splitted words into the list 
@@ -25,7 +25,7 @@ namespace Receiver
 				words[i] = words[i].ToLower();
 				words[i] = formatComment.RemoveInvalidCharacters(words[i]);
 			}
-			return mapOpeartion.InsertWordsAndCount(wordCountMap,words);
+			return mapOpeartion.InsertWordsAndCount(wordCountMap, words);
 		}
 	}
 }

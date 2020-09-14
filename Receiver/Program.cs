@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 namespace Receiver
 {
-    class Program
-    {
+	class Program
+	{
 		static void Main()
 		{
 			SortedDictionary<string, int> wordCountDictionary = new SortedDictionary<string, int>();

@@ -1,7 +1,0 @@
-D:\bootcamp\Sender\Sender\bin\Debug\Sender.exe.config
-D:\bootcamp\Sender\Sender\bin\Debug\Sender.exe
-D:\bootcamp\Sender\Sender\bin\Debug\Sender.pdb
-D:\bootcamp\Sender\Sender\obj\Debug\Sender.csprojAssemblyReference.cache
-D:\bootcamp\Sender\Sender\obj\Debug\Sender.csproj.CoreCompileInputs.cache
-D:\bootcamp\Sender\Sender\obj\Debug\Sender.exe
-D:\bootcamp\Sender\Sender\obj\Debug\Sender.pdb

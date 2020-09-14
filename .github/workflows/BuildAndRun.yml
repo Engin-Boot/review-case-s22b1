@@ -5,19 +5,13 @@ on:
         branches: [master]
  
 jobs:
-  
   build:
-    
-    strategy:
-      matrix:
-       configuration: [Debug]
-    
+ 
     runs-on: windows-latest
     
     env:
-     Solution_Name: Receiver.sln
-     Test_Project_Path: Receiver.Test\Receiver.Test.csproj
-     
+      Solution_Name: Review-Case-Study.sln
+      Test_Project_Path: Review-Case-Study.Tests\Review-Case-Study.Tests.csproj
  
     steps:
     - uses: actions/checkout@v1

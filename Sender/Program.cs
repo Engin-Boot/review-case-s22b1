@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Reflection;
 
 namespace Sender
@@ -30,7 +29,7 @@ namespace Sender
         {
             string[] lines = File.ReadAllLines(CSVPath);
             PrintCSV.PrintCSVRows(lines);
-        }          
+        }
     }
 }
 

@@ -12,7 +12,7 @@ namespace Sender
         /// Print all the rows of CSV File 
         /// </summary>
         /// <param name="lines"> </param>
-       
+
         public static void PrintCSVRows(string[] lines)
         {
 
@@ -21,11 +21,11 @@ namespace Sender
                 if (!string.IsNullOrEmpty(line) && line.Contains(','))
                 {
                     string columns = line.Split(',')[1];
-                    if(!string.IsNullOrEmpty(columns))
+                    if (!string.IsNullOrEmpty(columns))
                     {
                         PrintCSVCol(columns);
                     }
-                 
+
                 }
             }
         }

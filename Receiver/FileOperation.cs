@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Receiver
 {
-    public class FileOperation
+	public class FileOperation
 	{
 		/// <summary>
 		/// Writing words and its count of dictionary to the csv file

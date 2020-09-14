@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Receiver
 {
-    public class MapOpeartion
+	public class MapOpeartion
 	{
 		/// <summary>
 		/// Inserting word and its count into a dictionary
