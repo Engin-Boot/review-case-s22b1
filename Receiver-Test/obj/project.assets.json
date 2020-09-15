@@ -3490,23 +3490,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vinay\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Varnika Gautam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vinay\\Desktop\\vinay67\\final\\review-case-s22b1\\Receiver-Test\\Receiver-Test.csproj",
+      "projectUniqueName": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver-Test\\Receiver-Test.csproj",
       "projectName": "Receiver-Test",
-      "projectPath": "C:\\Users\\Vinay\\Desktop\\vinay67\\final\\review-case-s22b1\\Receiver-Test\\Receiver-Test.csproj",
-      "packagesPath": "C:\\Users\\Vinay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vinay\\Desktop\\vinay67\\final\\review-case-s22b1\\Receiver-Test\\obj\\",
+      "projectPath": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver-Test\\Receiver-Test.csproj",
+      "packagesPath": "C:\\Users\\Varnika Gautam\\.nuget\\packages\\",
+      "outputPath": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver-Test\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Vinay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Varnika Gautam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3519,8 +3515,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Vinay\\Desktop\\vinay67\\final\\review-case-s22b1\\Receiver\\Receiver.csproj": {
-              "projectPath": "C:\\Users\\Vinay\\Desktop\\vinay67\\final\\review-case-s22b1\\Receiver\\Receiver.csproj"
+            "C:\\VARNIKA\\Assignment Bootcamp\\Receiver\\Receiver.csproj": {
+              "projectPath": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver\\Receiver.csproj"
             }
           }
         }
