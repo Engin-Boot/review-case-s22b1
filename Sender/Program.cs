@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Reflection;
+using System;
 
 namespace Sender
 {
@@ -17,19 +18,21 @@ namespace Sender
             {
                 csvPath = args[0];
             }
-            ReadCSV(csvPath);
-        }
 
+            String[] lines = ReadCSV(csvPath);
+            PrintCSV obj = new PrintCSV();
+            obj.PrintCSVRows(lines);
+        }
         /// <summary> 
         /// This function reads the CSV File
         /// </summary>
         /// <param name="CSVPath"> CSV File Path </param>
 
-        public static void ReadCSV(string CSVPath)
+        public static string[] ReadCSV(string CSVPath)
         {
             string[] lines = File.ReadAllLines(CSVPath);
-            PrintCSV.PrintCSVRows(lines);
-        }
+            return lines;
+        }    
     }
 }
 
