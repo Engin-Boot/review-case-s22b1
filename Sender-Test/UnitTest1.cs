@@ -11,7 +11,7 @@ namespace Sender_Test
         [Fact]
         public void FileExistTest()
         {
-            String path = @" D:\a\review-case-s22b1\review-case-s22b1\Sender-Test\bin\Release\netcoreapp3.1\TestFile\TestFile.csv";
+            String path = @"D:\a\review-case-s22b1\review-case-s22b1\Sender-Test\bin\Release\netcoreapp3.1\TestFile\TestFile.csv";
             try
             {
                 if (File.Exists("C:\\VARNIKA\\AssignmentBootcamp\\sample-review\\TestFile.csv"))
@@ -26,7 +26,7 @@ namespace Sender_Test
         [Fact]
         public void ReadFileTest()
         {
-            String path = @" D:\a\review-case-s22b1\review-case-s22b1\Sender-Test\bin\Release\netcoreapp3.1\TestFile\TestFile.csv";
+            String path = @"D:\a\review-case-s22b1\review-case-s22b1\Sender-Test\bin\Release\netcoreapp3.1\TestFile\TestFile.csv";
             String[] TestResult = File.ReadAllLines(path);
             String[] ReadCSVResult = Program.ReadCSV(path);
             bool areEqual = TestResult.SequenceEqual(ReadCSVResult);
@@ -37,7 +37,7 @@ namespace Sender_Test
         public void PrintRowTest()
         {
             bool result;
-            String path = @"C:\VARNIKA\AssignmentBootcamp\Sender-Test\bin\Debug\netcoreapp3.1\TestFile\TestFile.csv";
+            String path = @"D:/a/review-case-s22b1/review-case-s22b1/Sender-Test/bin/Release/netcoreapp3.1/TestFile/TestFile.csv";
             PrintCSV obj = new PrintCSV();
             String[] TestResult = File.ReadAllLines(path);
             foreach (string line in TestResult)
