@@ -35,11 +35,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver\\Receiver.csproj",
+      "projectUniqueName": "C:\\VARNIKA\\AssignmentBootcamp\\Receiver\\Receiver.csproj",
       "projectName": "Receiver",
-      "projectPath": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver\\Receiver.csproj",
+      "projectPath": "C:\\VARNIKA\\AssignmentBootcamp\\Receiver\\Receiver.csproj",
       "packagesPath": "C:\\Users\\Varnika Gautam\\.nuget\\packages\\",
-      "outputPath": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver\\obj\\",
+      "outputPath": "C:\\VARNIKA\\AssignmentBootcamp\\Receiver\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Varnika Gautam\\AppData\\Roaming\\NuGet\\NuGet.Config",

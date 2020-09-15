@@ -11,10 +11,10 @@ namespace Sender_Test
         [Fact]
         public void FileExistTest()
         {
-            String path = @"C:\VARNIKA\Assignment Bootcamp\sample-review\TestFile.csv";
+            String path = @"C:\VARNIKA\AssignmentBootcamp\sample-review\TestFile.csv";
             try
             {
-                if (File.Exists("C:\\VARNIKA\\Assignment Bootcamp\\sample-review\\TestFile.csv"))
+                if (File.Exists("C:\\VARNIKA\\AssignmentBootcamp\\sample-review\\TestFile.csv"))
                     Program.ReadCSV(path);
             }
             catch (Exception ex)
@@ -26,7 +26,7 @@ namespace Sender_Test
         [Fact]
         public void ReadFileTest()
         {
-            String path = @"C:\VARNIKA\Assignment Bootcamp\Sender-Test\bin\Debug\netcoreapp3.1\TestFile\TestFile.csv";
+            String path = @"C:\VARNIKA\AssignmentBootcamp\Sender-Test\bin\Debug\netcoreapp3.1\TestFile\TestFile.csv";
             String[] TestResult = File.ReadAllLines(path);
             String[] ReadCSVResult = Program.ReadCSV(path);
             bool areEqual = TestResult.SequenceEqual(ReadCSVResult);
@@ -37,7 +37,7 @@ namespace Sender_Test
         public void PrintRowTest()
         {
             bool result;
-            String path = @"C:\VARNIKA\Assignment Bootcamp\Sender-Test\bin\Debug\netcoreapp3.1\TestFile\TestFile.csv";
+            String path = @"C:\VARNIKA\AssignmentBootcamp\Sender-Test\bin\Debug\netcoreapp3.1\TestFile\TestFile.csv";
             PrintCSV obj = new PrintCSV();
             String[] TestResult = File.ReadAllLines(path);
             foreach (string line in TestResult)

@@ -3495,11 +3495,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver-Test\\Receiver-Test.csproj",
+      "projectUniqueName": "C:\\VARNIKA\\AssignmentBootcamp\\Receiver-Test\\Receiver-Test.csproj",
       "projectName": "Receiver-Test",
-      "projectPath": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver-Test\\Receiver-Test.csproj",
+      "projectPath": "C:\\VARNIKA\\AssignmentBootcamp\\Receiver-Test\\Receiver-Test.csproj",
       "packagesPath": "C:\\Users\\Varnika Gautam\\.nuget\\packages\\",
-      "outputPath": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver-Test\\obj\\",
+      "outputPath": "C:\\VARNIKA\\AssignmentBootcamp\\Receiver-Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Varnika Gautam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3515,8 +3515,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\VARNIKA\\Assignment Bootcamp\\Receiver\\Receiver.csproj": {
-              "projectPath": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver\\Receiver.csproj"
+            "C:\\VARNIKA\\AssignmentBootcamp\\Receiver\\Receiver.csproj": {
+              "projectPath": "C:\\VARNIKA\\AssignmentBootcamp\\Receiver\\Receiver.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VARNIKA\\Assignment Bootcamp\\Sender-Test\\Sender-Test.csproj": {}
+    "C:\\VARNIKA\\AssignmentBootcamp\\Sender-Test\\Sender-Test.csproj": {}
   },
   "projects": {
-    "C:\\VARNIKA\\Assignment Bootcamp\\Sender-Test\\Sender-Test.csproj": {
+    "C:\\VARNIKA\\AssignmentBootcamp\\Sender-Test\\Sender-Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VARNIKA\\Assignment Bootcamp\\Sender-Test\\Sender-Test.csproj",
+        "projectUniqueName": "C:\\VARNIKA\\AssignmentBootcamp\\Sender-Test\\Sender-Test.csproj",
         "projectName": "Sender-Test",
-        "projectPath": "C:\\VARNIKA\\Assignment Bootcamp\\Sender-Test\\Sender-Test.csproj",
+        "projectPath": "C:\\VARNIKA\\AssignmentBootcamp\\Sender-Test\\Sender-Test.csproj",
         "packagesPath": "C:\\Users\\Varnika Gautam\\.nuget\\packages\\",
-        "outputPath": "C:\\VARNIKA\\Assignment Bootcamp\\Sender-Test\\obj\\",
+        "outputPath": "C:\\VARNIKA\\AssignmentBootcamp\\Sender-Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Varnika Gautam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\VARNIKA\\Assignment Bootcamp\\Sender\\Sender.csproj": {
-                "projectPath": "C:\\VARNIKA\\Assignment Bootcamp\\Sender\\Sender.csproj"
+              "C:\\VARNIKA\\AssignmentBootcamp\\Sender\\Sender.csproj": {
+                "projectPath": "C:\\VARNIKA\\AssignmentBootcamp\\Sender\\Sender.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\VARNIKA\\Assignment Bootcamp\\Sender\\Sender.csproj": {
+    "C:\\VARNIKA\\AssignmentBootcamp\\Sender\\Sender.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VARNIKA\\Assignment Bootcamp\\Sender\\Sender.csproj",
+        "projectUniqueName": "C:\\VARNIKA\\AssignmentBootcamp\\Sender\\Sender.csproj",
         "projectName": "Sender",
-        "projectPath": "C:\\VARNIKA\\Assignment Bootcamp\\Sender\\Sender.csproj",
+        "projectPath": "C:\\VARNIKA\\AssignmentBootcamp\\Sender\\Sender.csproj",
         "packagesPath": "C:\\Users\\Varnika Gautam\\.nuget\\packages\\",
-        "outputPath": "C:\\VARNIKA\\Assignment Bootcamp\\Sender\\obj\\",
+        "outputPath": "C:\\VARNIKA\\AssignmentBootcamp\\Sender\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Varnika Gautam\\AppData\\Roaming\\NuGet\\NuGet.Config",

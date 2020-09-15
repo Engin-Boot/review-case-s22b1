@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VARNIKA\\Assignment Bootcamp\\Sender\\Sender.csproj": {}
+    "C:\\VARNIKA\\AssignmentBootcamp\\Sender\\Sender.csproj": {}
   },
   "projects": {
-    "C:\\VARNIKA\\Assignment Bootcamp\\Sender\\Sender.csproj": {
+    "C:\\VARNIKA\\AssignmentBootcamp\\Sender\\Sender.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VARNIKA\\Assignment Bootcamp\\Sender\\Sender.csproj",
+        "projectUniqueName": "C:\\VARNIKA\\AssignmentBootcamp\\Sender\\Sender.csproj",
         "projectName": "Sender",
-        "projectPath": "C:\\VARNIKA\\Assignment Bootcamp\\Sender\\Sender.csproj",
+        "projectPath": "C:\\VARNIKA\\AssignmentBootcamp\\Sender\\Sender.csproj",
         "packagesPath": "C:\\Users\\Varnika Gautam\\.nuget\\packages\\",
-        "outputPath": "C:\\VARNIKA\\Assignment Bootcamp\\Sender\\obj\\",
+        "outputPath": "C:\\VARNIKA\\AssignmentBootcamp\\Sender\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Varnika Gautam\\AppData\\Roaming\\NuGet\\NuGet.Config",
