@@ -8,7 +8,7 @@ namespace Receiver.Test
     public class UnitTestOfMap
     {
         [Fact]
-        public void CheckForInsertionOfWordCount()
+        public void CheckForRightInsertionOfWordCount()
         {
             MapOpeartion mapOpeartion = new MapOpeartion();
             List<string> words = new List<string> { "function", "remove", "void", "void", "function" };
@@ -19,6 +19,21 @@ namespace Receiver.Test
             keyValuePairsExpected.Add("void", 2);
             keyValuePairs = mapOpeartion.InsertWordsAndCount(keyValuePairs, words);
             Assert.True(keyValuePairsExpected.SequenceEqual(keyValuePairs));
+
+        }
+
+        [Fact]
+        public void CheckForWrongInsertionOfWordCount()
+        {
+            MapOpeartion mapOpeartion = new MapOpeartion();
+            List<string> words = new List<string> { "function", "remove", "void", "void", "function" };
+            SortedDictionary<string, int> keyValuePairs = new SortedDictionary<string, int>();
+            SortedDictionary<string, int> keyValuePairsExpected = new SortedDictionary<string, int>();
+            keyValuePairsExpected.Add("function", 2);
+            keyValuePairsExpected.Add("remove", 3);
+            keyValuePairsExpected.Add("void", 2);
+            keyValuePairs = mapOpeartion.InsertWordsAndCount(keyValuePairs, words);
+            Assert.False(keyValuePairsExpected.SequenceEqual(keyValuePairs));
 
         }
     }
