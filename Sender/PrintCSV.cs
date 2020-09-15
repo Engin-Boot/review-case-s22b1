@@ -50,7 +50,7 @@ namespace Sender
             {
                 Console.Write("{0}", column);
             }
-            Console.WriteLine("\n");
+            Console.Write("\n");
         }
     }
 }
