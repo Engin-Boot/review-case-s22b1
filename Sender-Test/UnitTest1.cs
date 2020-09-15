@@ -11,7 +11,7 @@ namespace Sender_Test
         [Fact]
         public void FileExistTest()
         {
-            String path = @"C:\VARNIKA\AssignmentBootcamp\sample-review\TestFile.csv";
+            String path = @" D:\a\review-case-s22b1\review-case-s22b1\Sender-Test\bin\Release\netcoreapp3.1\TestFile\TestFile.csv";
             try
             {
                 if (File.Exists("C:\\VARNIKA\\AssignmentBootcamp\\sample-review\\TestFile.csv"))
