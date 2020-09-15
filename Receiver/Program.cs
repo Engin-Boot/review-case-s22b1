@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace Receiver
 {
-	class Program
+	internal class Program
 	{
-		static void Main()
+		internal static void Main()
 		{
 			SortedDictionary<string, int> wordCountDictionary = new SortedDictionary<string, int>();
 			FileOperation fileOperation = new FileOperation();

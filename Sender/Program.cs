@@ -3,9 +3,9 @@ using System.Reflection;
 
 namespace Sender
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        internal static void Main(string[] args)
         {
             string csvPath;
             if (args.Length == 0)
