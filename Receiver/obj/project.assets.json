@@ -30,19 +30,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Varnika Gautam\\.nuget\\packages\\": {}
+    "C:\\Users\\Vinay\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver\\Receiver.csproj",
+      "projectUniqueName": "C:\\Users\\Vinay\\Desktop\\vinay67\\final\\review-case-s22b1\\Receiver\\Receiver.csproj",
       "projectName": "Receiver",
-      "projectPath": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver\\Receiver.csproj",
-      "packagesPath": "C:\\Users\\Varnika Gautam\\.nuget\\packages\\",
-      "outputPath": "C:\\VARNIKA\\Assignment Bootcamp\\Receiver\\obj\\",
+      "projectPath": "C:\\Users\\Vinay\\Desktop\\vinay67\\final\\review-case-s22b1\\Receiver\\Receiver.csproj",
+      "packagesPath": "C:\\Users\\Vinay\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vinay\\Desktop\\vinay67\\final\\review-case-s22b1\\Receiver\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Varnika Gautam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vinay\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
