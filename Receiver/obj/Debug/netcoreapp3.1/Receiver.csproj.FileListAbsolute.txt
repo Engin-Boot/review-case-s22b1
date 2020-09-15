@@ -24,3 +24,16 @@ C:\VARNIKA\Bootcamp\Receiver\obj\Debug\netcoreapp3.1\Receiver.csproj.CoreCompile
 C:\VARNIKA\Bootcamp\Receiver\obj\Debug\netcoreapp3.1\Receiver.dll
 C:\VARNIKA\Bootcamp\Receiver\obj\Debug\netcoreapp3.1\Receiver.pdb
 C:\VARNIKA\Bootcamp\Receiver\obj\Debug\netcoreapp3.1\Receiver.genruntimeconfig.cache
+C:\Users\Vinay\Desktop\prac\review-case-s22b1\Receiver\bin\Debug\netcoreapp3.1\Receiver.exe
+C:\Users\Vinay\Desktop\prac\review-case-s22b1\Receiver\bin\Debug\netcoreapp3.1\Receiver.deps.json
+C:\Users\Vinay\Desktop\prac\review-case-s22b1\Receiver\bin\Debug\netcoreapp3.1\Receiver.runtimeconfig.json
+C:\Users\Vinay\Desktop\prac\review-case-s22b1\Receiver\bin\Debug\netcoreapp3.1\Receiver.runtimeconfig.dev.json
+C:\Users\Vinay\Desktop\prac\review-case-s22b1\Receiver\bin\Debug\netcoreapp3.1\Receiver.dll
+C:\Users\Vinay\Desktop\prac\review-case-s22b1\Receiver\bin\Debug\netcoreapp3.1\Receiver.pdb
+C:\Users\Vinay\Desktop\prac\review-case-s22b1\Receiver\obj\Debug\netcoreapp3.1\Receiver.csprojAssemblyReference.cache
+C:\Users\Vinay\Desktop\prac\review-case-s22b1\Receiver\obj\Debug\netcoreapp3.1\Receiver.AssemblyInfoInputs.cache
+C:\Users\Vinay\Desktop\prac\review-case-s22b1\Receiver\obj\Debug\netcoreapp3.1\Receiver.AssemblyInfo.cs
+C:\Users\Vinay\Desktop\prac\review-case-s22b1\Receiver\obj\Debug\netcoreapp3.1\Receiver.csproj.CoreCompileInputs.cache
+C:\Users\Vinay\Desktop\prac\review-case-s22b1\Receiver\obj\Debug\netcoreapp3.1\Receiver.dll
+C:\Users\Vinay\Desktop\prac\review-case-s22b1\Receiver\obj\Debug\netcoreapp3.1\Receiver.pdb
+C:\Users\Vinay\Desktop\prac\review-case-s22b1\Receiver\obj\Debug\netcoreapp3.1\Receiver.genruntimeconfig.cache

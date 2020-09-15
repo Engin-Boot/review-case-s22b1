@@ -11,7 +11,7 @@ namespace Sender_Test
         {
             try
             {
-                if (File.Exists("C:\\VARNIKA\\Test.csv"));
+                if (File.Exists("C:\\VARNIKA\\Test.csv"))
                 return; // indicates success
             }
             catch (Exception ex)

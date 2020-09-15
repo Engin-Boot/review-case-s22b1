@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VARNIKA\\Bootcamp\\Receiver-Test\\Receiver-Test.csproj": {}
+    "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver-Test\\Receiver-Test.csproj": {}
   },
   "projects": {
-    "C:\\VARNIKA\\Bootcamp\\Receiver-Test\\Receiver-Test.csproj": {
+    "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver-Test\\Receiver-Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VARNIKA\\Bootcamp\\Receiver-Test\\Receiver-Test.csproj",
+        "projectUniqueName": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver-Test\\Receiver-Test.csproj",
         "projectName": "Receiver-Test",
-        "projectPath": "C:\\VARNIKA\\Bootcamp\\Receiver-Test\\Receiver-Test.csproj",
-        "packagesPath": "C:\\Users\\Varnika Gautam\\.nuget\\packages\\",
-        "outputPath": "C:\\VARNIKA\\Bootcamp\\Receiver-Test\\obj\\",
+        "projectPath": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver-Test\\Receiver-Test.csproj",
+        "packagesPath": "C:\\Users\\Vinay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver-Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Varnika Gautam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vinay\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\VARNIKA\\Bootcamp\\Receiver\\Receiver.csproj": {
-                "projectPath": "C:\\VARNIKA\\Bootcamp\\Receiver\\Receiver.csproj"
+              "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver\\Receiver.csproj": {
+                "projectPath": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver\\Receiver.csproj"
               }
             }
           }
@@ -78,17 +81,20 @@
         }
       }
     },
-    "C:\\VARNIKA\\Bootcamp\\Receiver\\Receiver.csproj": {
+    "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver\\Receiver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VARNIKA\\Bootcamp\\Receiver\\Receiver.csproj",
+        "projectUniqueName": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver\\Receiver.csproj",
         "projectName": "Receiver",
-        "projectPath": "C:\\VARNIKA\\Bootcamp\\Receiver\\Receiver.csproj",
-        "packagesPath": "C:\\Users\\Varnika Gautam\\.nuget\\packages\\",
-        "outputPath": "C:\\VARNIKA\\Bootcamp\\Receiver\\obj\\",
+        "projectPath": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver\\Receiver.csproj",
+        "packagesPath": "C:\\Users\\Vinay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Varnika Gautam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vinay\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
