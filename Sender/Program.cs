@@ -3,7 +3,7 @@ using System.Reflection;
 
 namespace Sender
 {
-    internal class Program
+    static class Program
     {
         internal static void Main(string[] args)
         {
