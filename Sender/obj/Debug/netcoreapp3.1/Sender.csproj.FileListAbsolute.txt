@@ -50,3 +50,16 @@ C:\Users\Vinay\Desktop\vinay67\review-case-s22b1\Sender\obj\Debug\netcoreapp3.1\
 C:\Users\Vinay\Desktop\vinay67\review-case-s22b1\Sender\obj\Debug\netcoreapp3.1\Sender.pdb
 C:\Users\Vinay\Desktop\vinay67\review-case-s22b1\Sender\obj\Debug\netcoreapp3.1\Sender.genruntimeconfig.cache
 C:\Users\Vinay\Desktop\vinay67\review-case-s22b1\Sender\obj\Debug\netcoreapp3.1\Sender.csproj.CoreCompileInputs.cache
+C:\VARNIKA\Assignment Bootcamp\Sender\bin\Debug\netcoreapp3.1\Sender.exe
+C:\VARNIKA\Assignment Bootcamp\Sender\bin\Debug\netcoreapp3.1\Sender.deps.json
+C:\VARNIKA\Assignment Bootcamp\Sender\bin\Debug\netcoreapp3.1\Sender.runtimeconfig.json
+C:\VARNIKA\Assignment Bootcamp\Sender\bin\Debug\netcoreapp3.1\Sender.runtimeconfig.dev.json
+C:\VARNIKA\Assignment Bootcamp\Sender\bin\Debug\netcoreapp3.1\Sender.dll
+C:\VARNIKA\Assignment Bootcamp\Sender\bin\Debug\netcoreapp3.1\Sender.pdb
+C:\VARNIKA\Assignment Bootcamp\Sender\obj\Debug\netcoreapp3.1\Sender.csprojAssemblyReference.cache
+C:\VARNIKA\Assignment Bootcamp\Sender\obj\Debug\netcoreapp3.1\Sender.AssemblyInfoInputs.cache
+C:\VARNIKA\Assignment Bootcamp\Sender\obj\Debug\netcoreapp3.1\Sender.AssemblyInfo.cs
+C:\VARNIKA\Assignment Bootcamp\Sender\obj\Debug\netcoreapp3.1\Sender.csproj.CoreCompileInputs.cache
+C:\VARNIKA\Assignment Bootcamp\Sender\obj\Debug\netcoreapp3.1\Sender.dll
+C:\VARNIKA\Assignment Bootcamp\Sender\obj\Debug\netcoreapp3.1\Sender.pdb
+C:\VARNIKA\Assignment Bootcamp\Sender\obj\Debug\netcoreapp3.1\Sender.genruntimeconfig.cache
