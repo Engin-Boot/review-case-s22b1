@@ -3492,11 +3492,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Sender-Test\\Sender-Test.csproj",
+      "projectUniqueName": "C:\\Users\\Vinay\\Desktop\\vinay67\\review-case-s22b1\\Sender-Test\\Sender-Test.csproj",
       "projectName": "Sender-Test",
-      "projectPath": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Sender-Test\\Sender-Test.csproj",
+      "projectPath": "C:\\Users\\Vinay\\Desktop\\vinay67\\review-case-s22b1\\Sender-Test\\Sender-Test.csproj",
       "packagesPath": "C:\\Users\\Vinay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Sender-Test\\obj\\",
+      "outputPath": "C:\\Users\\Vinay\\Desktop\\vinay67\\review-case-s22b1\\Sender-Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3515,8 +3515,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Sender\\Sender.csproj": {
-              "projectPath": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Sender\\Sender.csproj"
+            "C:\\Users\\Vinay\\Desktop\\vinay67\\review-case-s22b1\\Sender\\Sender.csproj": {
+              "projectPath": "C:\\Users\\Vinay\\Desktop\\vinay67\\review-case-s22b1\\Sender\\Sender.csproj"
             }
           }
         }

@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Receiver
 {
-	public class CommentSplitter
+    public class CommentSplitter
 	{
 
 		/// <summary>
-		/// splitting the text and storing the splitted words into the list 
+		/// splitting the text and storing the splitted words into the list
 		/// </summary>
-		/// <param name="M"></param>
-		/// <param name="line"></param>
+		/// <param name="wordCountMap"></param>
+		/// <param name="comment"></param>
 		/// <returns></returns>
 		public SortedDictionary<string, int> SplitCommentsIntoWords(SortedDictionary<string, int> wordCountMap, string comment)
 		{

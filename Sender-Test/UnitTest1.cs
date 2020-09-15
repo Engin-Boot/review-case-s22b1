@@ -12,12 +12,12 @@ namespace Sender_Test
             try
             {
                 if (File.Exists("C:\\VARNIKA\\Test.csv"))
-                return; // indicates success
+                    return; // indicates success
             }
             catch (Exception ex)
             {
                 Assert.True(false, ex.Message);
-            }            
+            }
         }
-    }
+    }  
 }

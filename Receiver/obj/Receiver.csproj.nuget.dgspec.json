@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver\\Receiver.csproj": {}
+    "C:\\Users\\Vinay\\Desktop\\vinay67\\review-case-s22b1\\Receiver\\Receiver.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver\\Receiver.csproj": {
+    "C:\\Users\\Vinay\\Desktop\\vinay67\\review-case-s22b1\\Receiver\\Receiver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver\\Receiver.csproj",
+        "projectUniqueName": "C:\\Users\\Vinay\\Desktop\\vinay67\\review-case-s22b1\\Receiver\\Receiver.csproj",
         "projectName": "Receiver",
-        "projectPath": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver\\Receiver.csproj",
+        "projectPath": "C:\\Users\\Vinay\\Desktop\\vinay67\\review-case-s22b1\\Receiver\\Receiver.csproj",
         "packagesPath": "C:\\Users\\Vinay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vinay\\Desktop\\prac\\review-case-s22b1\\Receiver\\obj\\",
+        "outputPath": "C:\\Users\\Vinay\\Desktop\\vinay67\\review-case-s22b1\\Receiver\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Receiver
 {
-	public class MapOpeartion
+    public class MapOpeartion
 	{
 		/// <summary>
 		/// Inserting word and its count into a dictionary
 		/// </summary>
-		/// <param name="M"></param>
+		/// <param name="mapOfWordCount"></param>
 		/// <param name="words"></param>
 		/// <returns></returns>
 		public SortedDictionary<string, int> InsertWordsAndCount(SortedDictionary<string, int> mapOfWordCount, List<string> words)

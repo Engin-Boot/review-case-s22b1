@@ -10,22 +10,6 @@ namespace Sender
         /// </summary>
         /// <param name="lines"> </param>
 
-        //public static void PrintCSVRows(string[] lines)
-        //{
-
-        //    foreach (string line in lines)
-        //    {
-        //        if (!string.IsNullOrEmpty(line) && line.Contains(','))
-        //        {
-        //            string columns = line.Split(',')[1];
-        //            if (!string.IsNullOrEmpty(columns))
-        //            {
-        //                PrintCSVCol(columns);
-        //            }
-
-        //        }
-        //    }
-        //}
 
         public static void PrintCSVRows(string[] lines)
         {

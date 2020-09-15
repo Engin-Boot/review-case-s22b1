@@ -6,20 +6,19 @@ namespace Receiver
     public class FormatComment
 	{
 		/// <summary>
-		/// To remove all the Invalid Charater from string
+		/// To remove all the invalid characters from string
 		/// </summary>
-		/// <param name="modifiedWord"></param>
+		/// <param name="word"></param>
 		/// <returns></returns>
 		public string RemoveInvalidCharacters(string word)
 		{
 			var modifiedWord = new StringBuilder();
-			bool result;
-			for (int i = 0; i < word.Length; i++)
+			foreach (char character in word)
 			{
-				result = Char.IsLetter(word[i]);
+				bool result = Char.IsLetter(character);
 				if (result)
 				{
-					modifiedWord.Append(word[i]);
+					modifiedWord.Append(character);
 				}
 			}
 			return modifiedWord.ToString();

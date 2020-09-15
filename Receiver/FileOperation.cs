@@ -6,14 +6,14 @@ namespace Receiver
 	public class FileOperation
 	{
 		/// <summary>
-		/// Writing words and its count of dictionary to the csv file
+		/// Writing dictionary into the CSV file
 		/// </summary>
-		/// <param name="M"></param>
-		public void WriteWordAndItsCount(SortedDictionary<string, int> M)
+		/// <param name="mapOfWordCount"></param>
+		public void WriteWordAndItsCount(SortedDictionary<string, int> mapOfWordCount)
 		{
 			using (StreamWriter file = new StreamWriter("demo.csv", true))
 			{
-				foreach (KeyValuePair<string, int> keyValuePair in M)
+				foreach (KeyValuePair<string, int> keyValuePair in mapOfWordCount)
 				{
 					file.WriteLine("{0},{1}", keyValuePair.Key, keyValuePair.Value);
 				}
