@@ -37,7 +37,7 @@ namespace Sender_Test
         public void PrintRowTest()
         {
             bool result;
-            String path = @"D:/a/review-case-s22b1/review-case-s22b1/Sender-Test/bin/Release/netcoreapp3.1/TestFile/TestFile.csv";
+            String path = @"D:\a\review-case-s22b1\review-case-s22b1\Sender-Test\bin\Release\netcoreapp3.1\TestFile\TestFile.csv";
             PrintCSV obj = new PrintCSV();
             String[] TestResult = File.ReadAllLines(path);
             foreach (string line in TestResult)
