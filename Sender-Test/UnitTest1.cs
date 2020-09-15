@@ -14,7 +14,7 @@ namespace Sender_Test
             String path = @"C:\VARNIKA\Assignment Bootcamp\sample-review\TestFile.csv";
             try
             {
-                if (File.Exists("C:\\VARNIKA\\Assignment Bootcamp\\sample-review\TestFile.csv"))
+                if (File.Exists("C:\\VARNIKA\\Assignment Bootcamp\\sample-review\\TestFile.csv"))
                     Program.ReadCSV(path); 
             }
             catch (Exception ex)
