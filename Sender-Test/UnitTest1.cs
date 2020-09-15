@@ -26,7 +26,7 @@ namespace Sender_Test
         [Fact]
         public void ReadFileTest()
         {
-            String path = @"C:\VARNIKA\Assignment Bootcamp\sample-review\TestFile.csv";
+            String path = @"sample-review/TestFile.csv";
             String[] TestResult = File.ReadAllLines(path);
             String[] ReadCSVResult = Program.ReadCSV(path);
             bool areEqual = TestResult.SequenceEqual(ReadCSVResult);
