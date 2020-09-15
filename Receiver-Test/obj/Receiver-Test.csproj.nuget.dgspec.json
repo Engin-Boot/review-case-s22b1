@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[2.4.0, )"
             },
+            "xunit.analyzers": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            },
             "xunit.runner.visualstudio": {
               "target": "Package",
               "version": "[2.4.0, )"
@@ -117,6 +121,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "xunit.analyzers": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

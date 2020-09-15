@@ -905,6 +905,9 @@
       "Receiver/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "xunit.analyzers": "0.10.0"
+        },
         "compile": {
           "bin/placeholder/Receiver.dll": {}
         },
@@ -3482,6 +3485,7 @@
       "Receiver >= 1.0.0",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
+      "xunit.analyzers >= 0.10.0",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
   },
@@ -3541,6 +3545,10 @@
           "xunit": {
             "target": "Package",
             "version": "[2.4.0, )"
+          },
+          "xunit.analyzers": {
+            "target": "Package",
+            "version": "[0.10.0, )"
           },
           "xunit.runner.visualstudio": {
             "target": "Package",

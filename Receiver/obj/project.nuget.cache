@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LV4D7cozcLueWRsLff+jJSdMgpbd5/CIlVssxyKThevXbSVMglGL9ira0MF6BIbBMYaMWJQRWas3Ukg+AyC1gw==",
+  "dgSpecHash": "TOhEpULld5tYA//STOBrvP4XqMT5r+3dWa/acXNJKbIkFR5ZbNRghKeji0OhIATTKHEQDypsHv7A921Rn9K9lw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vinay\\Desktop\\vinay67\\review-case-s22b1\\Receiver\\Receiver.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Vinay\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512"
+  ],
   "logs": []
 }

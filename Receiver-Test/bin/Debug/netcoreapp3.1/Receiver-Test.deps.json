@@ -12,6 +12,7 @@
           "Receiver": "1.0.0",
           "coverlet.collector": "1.2.0",
           "xunit": "2.4.0",
+          "xunit.analyzers": "0.10.0",
           "xunit.runner.visualstudio": "2.4.0"
         },
         "runtime": {
@@ -690,6 +691,9 @@
         }
       },
       "Receiver/1.0.0": {
+        "dependencies": {
+          "xunit.analyzers": "0.10.0"
+        },
         "runtime": {
           "Receiver.dll": {}
         }
