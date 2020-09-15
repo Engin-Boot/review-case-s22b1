@@ -16,10 +16,14 @@ jobs:
         with:
            dotnet-version: 3.1.101
   #    - name: Clear the test directory
-  #      run: if exist  ("unittestproject\testresults\") (rmdir /s /q unittestproject\testresults\)
-        
-      - name: Generate coverage report
+  #      run: if exist  ("unittestproject\testresults\") (rmdir /s /q unittestproject\testresults\)    - name: Generate coverage report
+      - name: Generate Coverage Report
         run: dotnet test --collect:"XPlat Code Coverage"
+        
+      - name: Check Receiver Coverage
+        run: powershell ./ReceiverCoverage.ps1 -linerate 1
       
-      - name: Check Coverage
-        run: powershell ./coverage.ps1 -linerate 1
+      - name: Check Sender Coverage
+        run: powershell ./SenderCoverage.ps1 -linerate 1
+
+
