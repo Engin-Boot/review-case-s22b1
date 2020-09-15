@@ -15,7 +15,7 @@ namespace Sender_Test
             try
             {
                 if (File.Exists("C:\\VARNIKA\\Assignment Bootcamp\\sample-reviewTest.csv"))
-                    Program.ReadCSV(path); // indicates success
+                    Program.ReadCSV(path);
             }
             catch (Exception ex)
             {
