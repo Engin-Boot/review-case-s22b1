@@ -15,7 +15,7 @@ namespace Sender_Test
             try
             {
                 if (File.Exists("C:\\VARNIKA\\Assignment Bootcamp\\sample-reviewTest.csv"))
-                    Program.ReadCSV(path); // indicates success
+                    Program.ReadCSV(path); 
             }
             catch (Exception ex)
             {
@@ -26,7 +26,7 @@ namespace Sender_Test
         [Fact]
         public void ReadFileTest()
         {
-            String path = @"D:/a/review-case-s22b1/review-case-s22b1Sender-Test/bin/Debug/netcoreapp3.1/TestFile.csv";
+            String path = @"C:\VARNIKA\Assignment Bootcamp\sample-review\Test.csv";
             String[] TestResult = File.ReadAllLines(path);
             String[] ReadCSVResult = Program.ReadCSV(path);
             bool areEqual = TestResult.SequenceEqual(ReadCSVResult);
