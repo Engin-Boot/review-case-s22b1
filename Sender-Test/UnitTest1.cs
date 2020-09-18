@@ -1,8 +1,6 @@
 using Sender;
 using System;
 using System.IO;
-using System.Linq;
-using System.Reflection;
 using Xunit;
 
 namespace Sender_Test
@@ -16,7 +14,7 @@ namespace Sender_Test
             try
             {
                 if (File.Exists("C:\\VARNIKA\\AssignmentBootcamp\\sample-review\\TestFile.csv"))
-                    Program.ReadCSV(path);
+                    Program.ReadCsv(path);
             }
             catch (Exception ex)
             {

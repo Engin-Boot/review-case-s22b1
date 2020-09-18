@@ -11,11 +11,12 @@ namespace Receiver
 		/// <param name="mapOfWordCount"></param>
 		public bool WriteWordAndItsCount(SortedDictionary<string, int> mapOfWordCount)
 		{
-			bool success = true;
+			bool success = false;
             using StreamWriter file = new StreamWriter("demo.csv", true);
             foreach (KeyValuePair<string, int> keyValuePair in mapOfWordCount)
             {
                 file.WriteLine("{0},{1}", keyValuePair.Key, keyValuePair.Value);
+				success = true;
             }
 			return success;
         }

@@ -19,20 +19,21 @@ namespace Sender
                 csvPath = args[0];
             }
 
-            String[] lines = ReadCSV(csvPath);
-            PrintCSV obj = new PrintCSV();
-            obj.PrintCSVRows(lines);
+            String[] lines = ReadCsv(csvPath);
+            PrintCsv obj = new PrintCsv();
+            obj.PrintCsvRows(lines);
         }
-        /// <summary> 
+        /// <summary>
         /// This function reads the CSV File
         /// </summary>
-        /// <param name="CSVPath"> CSV File Path </param>
+        /// <param name="csvPath"></param>
+        /// <returns></returns>
 
-        public static string[] ReadCSV(string CSVPath)
+        public static string[] ReadCsv(string csvPath)
         {
-            string[] lines = File.ReadAllLines(CSVPath);
+            string[] lines = File.ReadAllLines(csvPath);
             return lines;
-        }    
+        }
     }
 }
 

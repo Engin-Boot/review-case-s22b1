@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Linq;
-using System.IO;
 namespace Sender
 {
-    public class PrintCSV
+    public class PrintCsv
     {
         /// <summary>
         /// Print all the rows of CSV File 
@@ -11,19 +10,16 @@ namespace Sender
         /// <param name="lines"> </param>
 
 
-        public bool PrintCSVRows(string[] lines)
-        {            
-            bool val = false;
+        public void PrintCsvRows(string[] lines)
+        {
             foreach (var columns in lines
                 .Where(x => !string.IsNullOrEmpty(x))
                 .Select(x => x.Split(','))
                 .Where(x => x.Length > 1 && !string.IsNullOrEmpty(x[1]))
                 .ToArray())
             {
-                PrintCSVCol(columns[1]);
-                val = true;
+                PrintCsvCol(columns[1]);
             }
-            return val;
         }
 
 
@@ -31,7 +27,8 @@ namespace Sender
         /// Prints the column of CSV File
         /// </summary>
         /// <param name="columns"></param>
-        private bool PrintCSVCol(string columns)
+        /// <returns></returns>
+        private void PrintCsvCol(string columns)
         {
             foreach (var column in columns)
             {
@@ -39,7 +36,6 @@ namespace Sender
             }
             Console.Write("\n");
 
-            return true;
         }
     }
 }
